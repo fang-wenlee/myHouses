@@ -1,0 +1,45 @@
+[
+  {
+    "hid":"8318",
+    "street":"34125 Finnigan Terrace",
+    "city":"Fremont",
+    "zip":"94555",
+    "price":"1400000"
+  },
+  {
+    "hid":"8316",
+    "street":"5123 Forest View Drive",
+    "city":"San Jose",
+    "zip":"95129",
+    "price":"1799550"
+  },
+  {
+    "hid":"8315",
+    "street":"41856 Covington Drive",
+    "city":"Fremont",
+    "zip":"94539",
+    "price":"1650000"
+  },
+  {
+    "hid":"8314",
+    "street":"24248 Nora Circle",
+    "city":" Hayward",
+    "zip":"94536",
+    "price":"1050000"
+  },
+  {
+    "hid":"8313",
+    "street":"1066 Kachina Court",
+    "city":"Fremont",
+    "zip":"94539",
+    "price":"2450000"
+  },
+  {
+    "hid":"8312",
+    "street":"10 Thornhill Court",
+    "city":"Fremont",
+    "zip":"94539",
+    "price":"2450000"
+  }
+  
+]
