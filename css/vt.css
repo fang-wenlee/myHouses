@@ -610,6 +610,9 @@ section.main aside {
     background-position: 20px 5px;
   }
   /* Section - Atomsphere*/
+
+  section.atomsphere{ padding-left:20px;}
+
   section.atomsphere article {
     padding: 160px 20px 0px 0px;
     background-size: 300px auto;
@@ -748,7 +751,7 @@ section.main aside {
   }
   nav a.mobile_menu {
     left: auto;
-    right: 40px;
+   
     top: 8px;
     margin-left: 0px;
   }
