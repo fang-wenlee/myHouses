@@ -15,14 +15,8 @@ $(document).ready(function(){
               output += '</div>';
               output += '</aside>';
           });
-    /*      var output='';
-                  $.each(data, function(key, val) {
-                      output += '<aside><div class="container" style="background:url(../images/'+val.hid +'V1L.jpeg)">';
-                    //  output += '<h3><a href=#>'+ val.street + "," + val.city +'</a></h3>';
-                      output += '</div></aside>';
-  output += '<div class="detail"> <h3><a href=#>'+ val.street + "," + val.city +'</a></h3>';
-                      output += '</div></aside>';
-                  }); */
+   
+   
 
     $('section.main .house-container').append(output);
   }); //get JSON
