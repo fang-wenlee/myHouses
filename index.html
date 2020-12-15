@@ -12,20 +12,19 @@
 	</head>
 	<script type="text/javascript">
         $(function() {
-           /* $("aside").click(function() {
-			    
-               $("#zoomIn").show("fast");
-            });*/
+          
             $(".hero a.btn").click(function() {
 			
-				$("#zoomIn").toggle(1000);
-			//	http://www.baytour.com/Nvt/index.aspx?hid=8402&m=13
-				
-            });
+				$("#zoomIn").toggle(1000);					
+			});
+		
+
             $("#toggle").click(function() {
 
              $("#theDiv").toggle("slow", completion)
-            });
+			});
+			
+		
         });
         function completion(){
             $(this).text("Animation Complete")
@@ -62,8 +61,8 @@
 
 						<!--	<li><a title="" href="">HOME</a></li> -->
 							<li><a title="Sub Link 2" href="">PRICING</a></li>
-							<li><a title="" href="#">SERVICES</a>  <i class="fa fa-caret-down"></i>
-								<ul>
+							<li><a  class="service" title="" href="#">SERVICES</a>  <i class="fa fa-caret-down"></i>
+								<ul id="severChild">
 									<li><a title="Sub Link 1" href="">RESIDENTIAL VIRTUAL TOUR</a></li>
 									<li><a title="Single URL" href="">SINGLE URL</a></li>
 									<li><a title="Realtor Web Design" href="">REALTOR WEB DESIGN</a></li>
