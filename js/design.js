@@ -4,14 +4,7 @@ $(document).ready(function(){
 
   $.getJSON('data.json', function(data) {
 
-  /*  var output='';
-        $.each(data, function(key, val) {
-            output += '<aside><div class="content' +val.hid+ '">';
-            output += '<h3><a href=#>'+ val.street + "," + val.city +'</a></h3>';
-            output += '<img src="../images/'+ val.hid +'V1L.jpeg" alt="'+ val.street +'" />';
-            output += '</div></aside>';
-        });*/
-    //output += '</aside>';
+
    var output='';
           $.each(data, function(key, val) {
               output += '<aside><a href="http://www.baytour.com/Nvt/index.aspx?hid=';
@@ -38,7 +31,6 @@ $(document).ready(function(){
      $('nav a.mobile_menu').on('click', function(){
 
           var currentNavHeight = $('nav').height();
-
           if (currentNavHeight < 5){
               var newNavHeight = $('nav >ul').height() + 25;
                $('nav').animate({'height' : newNavHeight+ 'px'}, 750 )
